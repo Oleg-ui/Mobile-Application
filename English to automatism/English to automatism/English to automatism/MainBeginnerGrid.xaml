@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="English_to_automatism.MainBeginnerGrid">
+    <ScrollView>
+        <StackLayout Spacing="0">
+            <Frame BackgroundColor="#FF2D285C" CornerRadius="0">
+                <Grid>
+                    <Label Text="Beginner" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="Large" Grid.Column="0"/>
+                    <ImageButton Source="ButtonMain.png" Clicked="OnImageButtonClicked" HorizontalOptions="Start" BackgroundColor="#FF2D285C" Grid.Column="0"/>
+                </Grid>
+            </Frame>
+            <Frame BackgroundColor="#FF33326B" CornerRadius="0">
+                <StackLayout Spacing="0">
+                    <Grid>
+                        <Button Text="Список" BackgroundColor="#FF33326B" TextColor="#FF44638A" HorizontalOptions="Start" Grid.Column = "0"/>
+                        <Button Text="Сетка" BackgroundColor="#FF33326B" TextColor="#FF5A9DB5" HorizontalOptions="End" Grid.Column = "0"/>
+                        <BoxView BackgroundColor="#FF33326B" Grid.Column = "1"/>
+                    </Grid>
+                    <Grid>
+                        <Button Text="В" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="0" Grid.Row="0"/>
+                        <Button Text="У1" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="1" Grid.Row="0"/>
+                        <Button Text="П1" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="2" Grid.Row="0"/>
+                        <Button Text="У2" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="3" Grid.Row="0"/>
+                        <Button Text="П2" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="4" Grid.Row="0"/>
+
+                        <Button Text="У3" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="0" Grid.Row="1"/>
+                        <Button Text="П3" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="1" Grid.Row="1"/>
+                        <Button Text="У4" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="2" Grid.Row="1"/>
+                        <Button Text="П4" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="3" Grid.Row="1"/>
+                        <Button Text="У5" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="4" Grid.Row="1"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

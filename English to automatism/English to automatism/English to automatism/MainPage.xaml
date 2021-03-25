@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="English_to_automatism.MainPage">
+    <ScrollView>
+        <StackLayout Spacing="0">
+            <Frame BackgroundColor="#FF2D285C" CornerRadius="0">
+                <Grid>
+                    <Label Text="English to Automatism" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="Large" Grid.Column="0"/>
+                    <ImageButton Source="ButtonMain.png" Clicked="OnImageButtonClicked" HorizontalOptions="Start" BackgroundColor="#FF2D285C" Grid.Column="0"/>
+                </Grid>
+            </Frame>
+            <Frame BackgroundColor="#FF33326B" CornerRadius="0">
+                <StackLayout>
+                    <Grid>
+                        <BoxView   BackgroundColor="#FF5A9DB5"   Grid.Column="0" CornerRadius="10"/>
+                        <BoxView   BackgroundColor="#FF2D285C"   Grid.Column="0" Margin="1" CornerRadius="10"/>
+                        <Label Text="A0" FontSize="60" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                        <StackLayout Grid.Column="1">
+                            <Label Text="Beginner" TextColor="White" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center"/>
+                            <Button Text="0%" x:Name="ButtonA0" TextColor="White" BackgroundColor="#FF2D285C" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10"/>
+                            <Button Text="Продолжить" TextColor="White" BackgroundColor="#FF2D285C" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10"/>
+                        </StackLayout>
+                    </Grid>
+                    <Image Source="Line.png"/>
+                    <Grid>
+                        <BoxView   BackgroundColor="#FF5A9DB5"   Grid.Column="0" CornerRadius="10"/>
+                        <BoxView   BackgroundColor="#FF2D285C"   Grid.Column="0" Margin="1" CornerRadius="10"/>
+                        <Label Text="A1" FontSize="60" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                        <StackLayout Grid.Column="1" Grid.Row="0">
+                            <Label Text="Elementary" TextColor="White" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center"/>
+                            <Button Text="0%" TextColor="White" BackgroundColor="#FF2D285C" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10"/>
+                            <Button Text="В разработке" TextColor="White" BackgroundColor="#FF2D285C" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10"/>
+                        </StackLayout>
+                    </Grid>
+                    <Image Source="Line.png" />
+                    <Grid>
+                        <BoxView   BackgroundColor="#FF5A9DB5"   Grid.Column="0" CornerRadius="10"/>
+                        <BoxView   BackgroundColor="#FF2D285C"   Grid.Column="0" Margin="1" CornerRadius="10"/>
+                        <Label Text="A2" FontSize="60" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                        <StackLayout Grid.Column="1" Grid.Row="0">
+                            <Label Text="Pre-Intermediate" TextColor="White" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center"/>
+                            <Button Text="0%" TextColor="White" BackgroundColor="#FF2D285C" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10"/>
+                            <Button Text="В разработке" TextColor="White" BackgroundColor="#FF2D285C" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10"/>
+                        </StackLayout>
+                    </Grid>
+                    <Image Source="Line.png" />
+                    <Grid>
+                        <BoxView   BackgroundColor="#FF5A9DB5"   Grid.Column="0" CornerRadius="10"/>
+                        <BoxView   BackgroundColor="#FF2D285C"   Grid.Column="0" Margin="1" CornerRadius="10"/>
+                        <Label Text="B1" FontSize="60" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                        <StackLayout Grid.Column="1" Grid.Row="0">
+                            <Label Text="Intermediate" TextColor="White" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center"/>
+                            <Button Text="0%" TextColor="White" BackgroundColor="#FF2D285C" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10"/>
+                            <Button Text="В разработке" TextColor="White" BackgroundColor="#FF2D285C" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10"/>
+                        </StackLayout>
+                    </Grid>
+                    <Image Source="Line.png" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

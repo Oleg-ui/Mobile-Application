@@ -1,0 +1,30 @@
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\bin\Debug\netstandard2.0\English to automatism.deps.json
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\bin\Debug\netstandard2.0\English to automatism.dll
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\bin\Debug\netstandard2.0\ref\English to automatism.dll
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\bin\Debug\netstandard2.0\English to automatism.pdb
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.csprojAssemblyReference.cache
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.AssemblyInfoInputs.cache
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.AssemblyInfo.cs
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.csproj.CoreCompileInputs.cache
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.dll
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\ref\English to automatism.dll
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.pdb
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\bin\Debug\netstandard2.0\English to automatism.deps.json
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\bin\Debug\netstandard2.0\English to automatism.dll
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\bin\Debug\netstandard2.0\ref\English to automatism.dll
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\bin\Debug\netstandard2.0\English to automatism.pdb
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.csprojAssemblyReference.cache
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.AssemblyInfoInputs.cache
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.AssemblyInfo.cs
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.csproj.CoreCompileInputs.cache
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.dll
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\ref\English to automatism.dll
+C:\Users\Oleg\Desktop\Мобильное приложение\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\English to automatism.pdb
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\MainBeginnerGrid.xaml.g.cs
+C:\Users\Oleg\Desktop\Projects\English to automatism\English to automatism\English to automatism\obj\Debug\netstandard2.0\MainBeginnerList.xaml.g.cs
