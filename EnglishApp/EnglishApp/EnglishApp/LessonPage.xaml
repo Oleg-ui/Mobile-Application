@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EnglishApp.LessonPage">
+    <ContentPage.Content>
+        <Frame BackgroundColor="#FF33326B">
+            <StackLayout>
+                <Grid>
+                    <Label Text="Практика" TextColor="White" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                    <Button Text="Теория" TextColor="White" BackgroundColor="#FF33326B" BorderColor="#FF5A9DB5" BorderWidth="1" Grid.Column="1"/>
+                </Grid>
+                <Label Text="Text" x:Name="description" TextColor="White"/>
+                <Label Text="Text" x:Name="ans" TextColor="White"/>
+                <Entry Text="Text" x:Name="input" TextColor="White"/>
+                <Button Clicked="Button_Clicked" Text="Далее" TextColor="White" BackgroundColor="#FF33326B" BorderColor="#FF5A9DB5" BorderWidth="1"/>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

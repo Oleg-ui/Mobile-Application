@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:EnglishApp"
+             x:Class="EnglishApp.AppShell">
+
+    <Shell.FlyoutHeader>
+        <StackLayout BackgroundColor="#FF1E1D47" Padding="10">
+            <Label Text="Beginner" TextColor="White" FontSize="Medium"/>
+            <Label Text="Пользователь" TextColor="White" FontSize="Medium"/>
+        </StackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Курсы">
+        <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Beginner" Route="Beginner">
+        <Tab>
+            <ShellContent Title="Список" ContentTemplate="{DataTemplate pages:MainBeginnerList}"/>
+            <ShellContent Title="Сетка" ContentTemplate="{DataTemplate pages:MainBeginnerGrid}"/>
+        </Tab>
+    </FlyoutItem>
+
+</Shell>
