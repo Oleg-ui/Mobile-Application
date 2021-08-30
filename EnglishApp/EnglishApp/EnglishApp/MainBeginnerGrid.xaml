@@ -12,9 +12,9 @@
                             <Grid>
                                 <Button Text="В" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="0" Grid.Row="0"/>
                                 <Button Text="У1" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="1" Grid.Row="0"/>
-                                <Button Text="П1" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="2" Grid.Row="0"/>
+                                <Button  Text="П1" ImageSource="1" Clicked="Click_Lesson" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="2" Grid.Row="0"/>
                                 <Button Text="У2" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="3" Grid.Row="0"/>
-                                <Button Text="П2" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="4" Grid.Row="0"/>
+                                <Button Text="П2" ImageSource="2" Clicked="Click_Lesson" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="4" Grid.Row="0"/>
 
                                 <Button Text="У3" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="0" Grid.Row="1"/>
                                 <Button Text="П3" BackgroundColor="#FF33326B" TextColor="White" BorderColor="#FF5A9DB5" FontSize="Large" BorderWidth="1" CornerRadius="10" Grid.Column="1" Grid.Row="1"/>

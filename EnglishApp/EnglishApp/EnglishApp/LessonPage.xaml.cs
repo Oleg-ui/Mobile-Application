@@ -12,11 +12,16 @@ namespace EnglishApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LessonPage : ContentPage
     {
-        public LessonTable table = App.Database.GetItem_LessonTable(1);
-        public IEnumerator<PracticeTable> ie = App.Database.GetItem_PracticeTable(1).GetEnumerator();
-        public LessonPage()
+        public LessonTable table;
+        public IEnumerator<PracticeTable> ie;
+        int id_lesson = 0;
+
+        public LessonPage(int _id)
         {
             InitializeComponent();
+            this.id_lesson = _id;
+            table = App.Database.GetItem_LessonTable(1);
+            ie = App.Database.GetItem_PracticeTable(this.id_lesson).GetEnumerator();
             ie.MoveNext();
             description.Text = ie.Current.sentence_ru;
             ans.Text = "Результат";

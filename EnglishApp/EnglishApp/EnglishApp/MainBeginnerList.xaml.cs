@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
@@ -19,7 +20,13 @@ namespace EnglishApp
 
         private async void Click_Lesson(object sender, EventArgs e)
         {
-            LessonPage lesson = new LessonPage();
+            Button button = (Button)sender;
+            var giud = button.Id;
+            string guid = button.Id.ToString();
+            int id;
+            string resultString = string.Join(string.Empty, Regex.Matches(button.ImageSource.ToString(), @"\d+").OfType<Match>().Select(m => m.Value));
+            int.TryParse(resultString, out id);
+            LessonPage lesson = new LessonPage(id);
             await Navigation.PushAsync(lesson);
         }
     }
